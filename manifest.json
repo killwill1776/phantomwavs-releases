@@ -1,16 +1,16 @@
 {
   "hub": {
-    "version": "1.0.0",
-    "url": "https://raw.githubusercontent.com/killwill1776/phantomwavs-releases/main/releases/hub/PHANTOMWAVS-Hub-1.0.0-mac.zip"
+    "version": "1.1.0",
+    "url": "https://raw.githubusercontent.com/killwill1776/phantomwavs-releases/main/releases/hub/PHANTOMWAVS-Hub-1.1.0-mac.zip"
   },
   "products": [
     {
       "id": "drumgirth",
       "name": "DrumGirth",
-      "version": "0.2.0",
-      "tagline": "Kit generator, 16-pad sampler, loop cells and a filthy FX chain.",
-      "url": "https://raw.githubusercontent.com/killwill1776/phantomwavs-releases/main/releases/drumgirth/DrumGirth-0.2.0-mac.zip",
-      "notes": "v0.2.0\n- Renamed from Kit Maker to DrumGirth\n- 16 pads, MPC-style 4x4 grid (C1 to D#2)\n- Loop cells (pads 13-16), lock to session tempo\n- Per-hit FX: Pitch, Decay, Filter, Drive, Pan, Verb send, Sidechain Duck, Volume\n- Sidechain: pick a source pad, per-pad Duck amount\n- Master: 3-band EQ, compressor, GIRTH, reverb, clipper, output\n- Psychedelic skin, animated logo, reverb ripple graphic"
+      "version": "0.3.1",
+      "tagline": "Kit generator, 16-pad sampler, kit brain, analog-style FX and 16 outs.",
+      "url": "https://raw.githubusercontent.com/killwill1776/phantomwavs-releases/main/releases/drumgirth/DrumGirth-0.3.1-mac.zip",
+      "notes": "DrumGirth 0.3.1\n- All 16 pads are drum hits by default (13 Perc 4, 14 Clap 2, 15 Open Hat 2, 16 Crash); LOOP CELL still on any pad\n- PADS START AT: choose C1 / C2 / C3 / C4 (default C3 = pads C3 to D#4); stutter notes sit right above the pads\n- Individual outputs: 16 extra stereo outs named \"Pad 1 Kick\" ... \"Pad 16 Crash\"; per-pad OUT: Main / Own / Both;\n  one-click ALL PADS -> OWN OUTS\n- Delay: SYNC toggle + Rate knob (1/64 to 1/1 incl. dotted + triplets) or free time 1 ms - 2 s\n\nDrumGirth 0.3.0\n- KIT BRAIN: kit source folder, genre picker (25 genres: trap to country/Americana), vibe box (\"dark punchy dusty\")\n- Every hit is analysed for brightness, punch, low end, grit and length; genre + vibe rank the picks\n- Per-pad SOURCE: drill into any folder/subfolder of your library, keywords filter, ANY TYPE toggle\n- Sampler per pad: Start, Attack, Reverse, Gate mode, Pitch envelope\n- Filter per pad: LP/HP 12+24 dB, Band, Notch, Resonance, Filter envelope; DJ filter, Crush, Drive\n- Transient shaper (Punch / Sustain) per pad; Delay send per pad\n- Master: tempo-synced ping-pong delay; STUTTER (1/4 to 1/64, tape stop, gate, reverse) - hold the buttons or play E2-B2\n- CHARACTER: Reverb types Plate (classic 80s digital plate, modulated) / Hall (8-line lush hall) / Spring / Room\n- CHARACTER: Ladder 24 (Moog-style, self-oscillates at max Reso) + MS-20 style dirty LP/HP filters per pad\n- CHARACTER: Drive types per pad: Soft, Tube, Tape, Transformer, FET, Fuzz\n- CHARACTER: Crush modes per pad: Digital, SP-12 (12-bit 26 kHz), MPC-60 (12-bit 40 kHz)\n- CHARACTER: Compressor types Clean / Bus (glue) / FET (aggressive); Delay types Digital / Tape (wow + flutter)\n- New skin: DRUMGIRTH logo, swirl background, 16 textured pads; resizable window that fits your screen\n\nPHANTOMWAVS Hub 1.1.0\n- Says AU + VST3, wordmark fixed, DrumGirth logo, self-update button\n\nDrumGirth 0.2.0\n- Renamed from Kit Maker to DrumGirth\n- 16 pads in an MPC-style 4x4 grid (C1 to D#2)\n- Loop cells: pads 13-16 are loops by default, any pad can be switched to a loop; locks to session tempo\n- Per-hit FX: Pitch, Decay, Filter, Drive, Pan, Verb send, Sidechain Duck, Volume\n- Sidechain: pick a source pad, every pad has its own Duck amount\n- Master strip: 3-band EQ, compressor, GIRTH, reverb, clipper, output\n- Psychedelic skin, animated logo, reverb ripple graphic"
     }
   ]
 }
