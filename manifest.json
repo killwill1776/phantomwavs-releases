@@ -1,4 +1,16 @@
 {
-  "hub": { "version": "1.0.0", "url": "" },
-  "products": []
+  "hub": {
+    "version": "1.0.0",
+    "url": "https://raw.githubusercontent.com/killwill1776/phantomwavs-releases/main/releases/hub/PHANTOMWAVS-Hub-1.0.0-mac.zip"
+  },
+  "products": [
+    {
+      "id": "drumgirth",
+      "name": "DrumGirth",
+      "version": "0.2.0",
+      "tagline": "Kit generator, 16-pad sampler, loop cells and a filthy FX chain.",
+      "url": "https://raw.githubusercontent.com/killwill1776/phantomwavs-releases/main/releases/drumgirth/DrumGirth-0.2.0-mac.zip",
+      "notes": "v0.2.0\n- Renamed from Kit Maker to DrumGirth\n- 16 pads, MPC-style 4x4 grid (C1 to D#2)\n- Loop cells (pads 13-16), lock to session tempo\n- Per-hit FX: Pitch, Decay, Filter, Drive, Pan, Verb send, Sidechain Duck, Volume\n- Sidechain: pick a source pad, per-pad Duck amount\n- Master: 3-band EQ, compressor, GIRTH, reverb, clipper, output\n- Psychedelic skin, animated logo, reverb ripple graphic"
+    }
+  ]
 }
